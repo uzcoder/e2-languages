@@ -1,16 +1,16 @@
 <?php 
 
-// display_name = Русский
+// display_name = O‘zbek
 
 function e2l_load_strings () {
 
   return array (
   // engine
-  'e2--vname-aegea' => 'Эгея',
-  'e2--release' => 'релиз',
+  'e2--vname-aegea' => 'Egeya',
+  'e2--release' => 'reliz',
   'e2--powered-by' => 'Движок —',
-  'e2--default-blog-title' => 'Мой блог',
-  'e2--default-blog-author' => 'Автор блога',
+  'e2--default-blog-title' => 'Blogim',
+  'e2--default-blog-author' => 'Blog muallifi',
   
   // installer
   'pt--install' => 'Установка Эгеи',
@@ -361,8 +361,8 @@ function e2l_load_strings () {
 function e2lstr_monthname ($number, $modifier = '') {
   if ($modifier == 'genitive') {
     $tmp = array (
-      'декабря', 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня',
-      'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря', 'января'
+      'dekabr', 'yanvar', 'fevral', 'mart', 'aprel', 'may', 'iyun',
+      'iyul', 'avgust', 'sentyabr', 'oktyabr', 'noyabr', 'dekabr', 'yanvar'
     );
   } elseif ($modifier == 'short') {
     $tmp = array (
